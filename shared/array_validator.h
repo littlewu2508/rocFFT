@@ -24,8 +24,8 @@
 #include <vector>
 
 // Checks whether the array with given length and stride has multi-index collisions.
-bool array_valid(const std::vector<size_t>& length,
-                 const std::vector<size_t>& stride,
+bool array_valid(const std::vector<std::size_t>& length,
+                 const std::vector<std::size_t>& stride,
                  const int                  verbose = 0);
 
 #endif

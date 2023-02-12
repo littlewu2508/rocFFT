@@ -68,6 +68,8 @@ struct CacheOperation
 
 using float16_t = _Float16;
 using float32_t = float;
+using uint32_t = unsigned int;
+using int32_t = int;
 
 template <typename T, int N>
 struct NativeVector
